@@ -1,0 +1,50 @@
+now fast api is python framewordk for create an api for any ml model or any backend for software . its very fast and efficent to create an api with the fastapi framework .
+
+mostly in most of the llm and ml model deployments fast api is used 
+
+fast api is made up of two libraries of python starlette and pydantic
+
+starlette is use for manage to receive requests from and send back the reponse to the client
+ pydantic is the data validation library its check that the data is coming is in correct format or not .inshort its check validations
+  
+
+
+#http status code indicates the result of client requests which will be 3 digitss number which indicates client that what did happen to their requests
+
+http statuse code start from digit:
+
+2** = success
+3** = redirection 
+4** = error from client side
+5** =error from server side
+
+some of the famous status code:
+
+200=  request is processed and received response perfectly
+201= resource created successfully
+204= success but donot get any response use for delete operation
+404 = not found
+401 -  unauthorized for u
+403 - forbidden
+500 - server issue
+
+502 - bad gateway
+503 - service unavailable
+
+
+
+#httpException - used to show customized error and status code
+
+
+query parameter are key value pair divide by (&) use for shorting and filtring and it is optional. provide more features to the client like client can ask data in shorted way unshorted way.
+like client want data based on hieght in asce order and this parameter will be flexible this is not necessary client have to define it wheather they want it or not
+they have define query only if they want like that
+
+
+
+
+#field function
+
+ 3 things we can do with field function 
+   
+   custom data validation,attach metadata,default values attachment
